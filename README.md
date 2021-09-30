@@ -63,12 +63,20 @@ Especificação de arquivo YAML para configurar a configuração do cluster. Em 
 - local de execução dos containers
 - pode haver mais de um container
 - podem compartilhar IP e file system
-- não colocar tudo dentro do POD , pois tudo será escalado.
-- Para cada POD deve ser colocado um pedaço da aplicação, de mandeira geral , vai ficar 1 container 1 POD.
+- Não colocar tudo dentro do POD , pois tudo será escalado. Para cada POD deve ser colocado um pedaço da aplicação, de mandeira geral , vai ficar 1 container 1 POD.
 
 ![image](https://user-images.githubusercontent.com/12244452/135544728-8ccc3c35-8303-4895-9631-4fe1d708e958.png)
 
-<b> Label e Selector </b>
+<b> Label e Selector </b><br>
 Labels e Selector, todo objeto interage com outros , no entanto precisa selecionar o objeto para saber qual objeto precisa interagir. Label elemento chave valor , no meu POD ou qualquer outro objeto. Selector , através de seletores eu defino qual objeto deve ser selecionado
 
 ![image](https://user-images.githubusercontent.com/12244452/135544774-d868b720-88eb-4c7f-b89f-65f447959a07.png)
+
+<b> replicaSet <b> 
+
+- Elemento que traz a resiliência para arquitetura do Kubernetes.
+- Gerenciar os pods
+- Contendo as definições de replicadas do meu Template POD
+  
+  ![image](https://user-images.githubusercontent.com/12244452/135544993-16a39a27-b7f7-48d3-9365-f4b2d31c95f6.png)
+
