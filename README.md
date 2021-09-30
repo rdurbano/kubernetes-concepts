@@ -74,7 +74,7 @@ Labels e Selector, todo objeto interage com outros , no entanto precisa selecion
 
 <b> replicaSet <b> 
 
-- Elemento que traz a resiliência para arquitetura do Kubernetes.
+- Elemento que traz a resiliência e escalabilidade para arquitetura do Kubernetes.
 - Gerenciar os pods
 - Contendo as definições de replicadas do meu Template POD
   
