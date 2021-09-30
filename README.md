@@ -30,8 +30,7 @@
 - Container DI
 - Cri-o
 
-
-#Formas de criar Kubernetes
+# Formas de criar Kubernetes
 - OnPremise
   - Kubeadm
   - Kubespray
@@ -53,9 +52,9 @@
 # Instalação Local
 
 Utilização KIND 
-https://docs.chocolatey.org/en-us/choco/setup
-https://kind.sigs.k8s.io/docs/user/quick-start/ (criação dos ambiente kubernetes em containers)
-https://kubernetes.io/docs/tasks/tools/   (comunicação com o control-plane)
+- https://docs.chocolatey.org/en-us/choco/setup
+- https://kind.sigs.k8s.io/docs/user/quick-start/ (criação dos ambiente kubernetes em containers)
+- https://kubernetes.io/docs/tasks/tools/   (comunicação com o control-plane)
 
 Especificação de arquivo YAML para configurar a configuração do cluster. Em caso de ter mais de um nó automaticamente é criado um load balance para gerenciar a carga.
 
