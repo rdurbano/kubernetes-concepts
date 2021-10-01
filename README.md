@@ -80,7 +80,7 @@ Labels e Selector, todo objeto interage com outros , no entanto precisa selecion
   
   ![image](https://user-images.githubusercontent.com/12244452/135544993-16a39a27-b7f7-48d3-9365-f4b2d31c95f6.png)
 
-  <b> deployment <b> 
+  <b> deployment </b> 
 
   ![image](https://user-images.githubusercontent.com/12244452/135546637-7e0faf62-9c6a-41c5-990d-6bc1f54f39e5.png)
 
