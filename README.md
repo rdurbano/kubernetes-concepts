@@ -85,3 +85,33 @@ Labels e Selector, todo objeto interage com outros , no entanto precisa selecion
   ![image](https://user-images.githubusercontent.com/12244452/135546637-7e0faf62-9c6a-41c5-990d-6bc1f54f39e5.png)
 
 - Facilidade de gestão dos replicaSets e versionamento dos PODs
+  
+  # Services
+  
+  Responsável por expor os pods e fazer o controle de carga , temos alguns tipos  que são:
+  
+  - ClusterIP
+  - NodePort
+  - LoadBalance
+
+  <b>Cluster IP</b>
+  
+  Expoe os pods internamente , exemplo API que utiliza um banco de dados , acesso entre os PODs
+  
+  ![image](https://user-images.githubusercontent.com/12244452/135695937-6ccf1ac0-9557-4e2b-8b94-2684ed7a5687.png)
+
+  
+  <b>NodePort </b>
+  
+  Cria um canal externo, uma porta é criada e acessada através de qualquer nó do cluster, assim é possível se comunicar com os PODs de forma externa. Muito utilizado no cenário OnPremise , pois você tem acesso aos IPs máquinas.
+  
+  ![image](https://user-images.githubusercontent.com/12244452/135695972-18fa6280-162d-426e-84ec-b0d57e10af9d.png)
+  
+  <b>LoadBalance </b>
+  Utilizado no cenário de Kubernetes As A Service.
+  Cria um loadBalance na frente do service gerando um IP Publico, 
+  
+  ![image](https://user-images.githubusercontent.com/12244452/135696136-b85d36b7-b614-4062-bba4-1dffc305f6a1.png)
+
+
+  
