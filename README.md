@@ -72,7 +72,7 @@ Labels e Selector, todo objeto interage com outros , no entanto precisa selecion
 
 ![image](https://user-images.githubusercontent.com/12244452/135544774-d868b720-88eb-4c7f-b89f-65f447959a07.png)
 
-<b> replicaSet <b> 
+<b> replicaSet </b> 
 
 - Elemento que traz a resiliência e escalabilidade para arquitetura do Kubernetes.
 - Gerenciar os pods
